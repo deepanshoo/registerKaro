@@ -1,0 +1,8 @@
+.text-with-line::after {
+    content: '';
+    display: block;
+    width: 40px; /* Adjusts the width of the line */
+    height: 1px; /* Adjusts the height (thickness) of the line */
+    background-color: #F60014; /* Adjust the color of the line */
+    margin-top: 20px; /* Adjust the space between the text and the line */
+}

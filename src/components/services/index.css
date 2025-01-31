@@ -1,0 +1,14 @@
+.service-card {
+    position: relative; 
+}
+
+.service-card::after {
+    content: '';
+    position: absolute; 
+    top: 0; 
+    right: -2px; 
+    height: 20px; 
+    width: 4px; 
+    background-color: #BB162B; 
+    margin-top: 4rem; 
+}
